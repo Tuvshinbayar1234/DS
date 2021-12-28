@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.167821b7.chunk.css",
+    "main.js": "/static/js/main.335e3404.chunk.js",
+    "main.js.map": "/static/js/main.335e3404.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7efbd581.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7efbd581.js.map",
+    "static/css/2.cd76a518.chunk.css": "/static/css/2.cd76a518.chunk.css",
+    "static/js/2.2ddda883.chunk.js": "/static/js/2.2ddda883.chunk.js",
+    "static/js/2.2ddda883.chunk.js.map": "/static/js/2.2ddda883.chunk.js.map",
+    "static/js/3.28c28a3f.chunk.js": "/static/js/3.28c28a3f.chunk.js",
+    "static/js/3.28c28a3f.chunk.js.map": "/static/js/3.28c28a3f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.cd76a518.chunk.css.map": "/static/css/2.cd76a518.chunk.css.map",
+    "static/css/main.167821b7.chunk.css.map": "/static/css/main.167821b7.chunk.css.map",
+    "static/js/2.2ddda883.chunk.js.LICENSE.txt": "/static/js/2.2ddda883.chunk.js.LICENSE.txt",
+    "static/media/Home.feaf4c1f.png": "/static/media/Home.feaf4c1f.png",
+    "static/media/index.css": "/static/media/Magistral-Bold.379b5708.ttf",
+    "static/media/amaraa.6a665480.png": "/static/media/amaraa.6a665480.png",
+    "static/media/anhaa.4d1b39c1.png": "/static/media/anhaa.4d1b39c1.png",
+    "static/media/bataa.da04d3a0.png": "/static/media/bataa.da04d3a0.png",
+    "static/media/bo.b855be0b.png": "/static/media/bo.b855be0b.png",
+    "static/media/buri.d06b45a5.png": "/static/media/buri.d06b45a5.png",
+    "static/media/eegii.0e172f45.png": "/static/media/eegii.0e172f45.png",
+    "static/media/muugii.dcc2f403.png": "/static/media/muugii.dcc2f403.png",
+    "static/media/odko.389629bf.png": "/static/media/odko.389629bf.png",
+    "static/media/project.62f27210.png": "/static/media/project.62f27210.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/tamiraa.96f462d4.png": "/static/media/tamiraa.96f462d4.png",
+    "static/media/tseku.7adf9069.png": "/static/media/tseku.7adf9069.png",
+    "static/media/tuku.0ed8f55d.png": "/static/media/tuku.0ed8f55d.png",
+    "static/media/tulgaa.519bc2eb.png": "/static/media/tulgaa.519bc2eb.png",
+    "static/media/whitelogo.201db434.png": "/static/media/whitelogo.201db434.png",
+    "static/media/zaya.e70aca35.png": "/static/media/zaya.e70aca35.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7efbd581.js",
+    "static/css/2.cd76a518.chunk.css",
+    "static/js/2.2ddda883.chunk.js",
+    "static/css/main.167821b7.chunk.css",
+    "static/js/main.335e3404.chunk.js"
+  ]
+}
