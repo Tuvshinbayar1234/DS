@@ -1,6 +1,11 @@
 import React, {Fragment, useState } from 'react'
 import White from '../../assets/whitelogo.png'
 import Project1 from '../../assets/project.png'
+import Mont from '../../assets/MONT.png'
+import Monnom from '../../assets/Monnom.png'
+import ARDMs from '../../assets/ArdMoney.png'
+import DAXL from '../../assets/dax-logo-light.png'
+import DAXLs from '../../assets/dax-logo.png'
 import Slider, { Settings } from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -53,21 +58,21 @@ const ProjectSlider = () => {
             <div className="inset-0 flex flex-col space-y-5 items-center justify-center">
                 <div className='flex w-full justify-evenly space-x-5'>
                     <button type="button" onClick={openModal} className="px-4 py-2 flex justify-center items-center text-sm font-medium shadow-lg rounded-xl">
-                        <img src={Project1} />
+                        <img width={'164px'} height={'164px'} src={DAXLs} />
                         <FaAngleRight className='text-black' />
                     </button>
                     <button type="button" onClick={openModalSecond} className="px-4 py-2 flex justify-center items-center text-sm font-medium shadow-lg rounded-xl">
-                        <img src={Project1} />
+                        <img width={'164px'} height={'164px'} src={Mont} />
                         <FaAngleRight className='text-black' />
                     </button>
                 </div>
                 <div className='flex w-full justify-evenly space-x-5'>
                     <button type="button" onClick={openModalThird} className="px-4 py-2 flex justify-center items-center text-sm font-medium shadow-lg rounded-xl">
-                        <img src={Project1} />
+                        <img width={'164px'} height={'164px'} src={Project1} />
                         <FaAngleRight className='text-black' />
                     </button>
                     <button type="button" onClick={openModalFourth} className="px-4 py-2 flex justify-center items-center text-sm font-medium shadow-lg rounded-xl">
-                        <img src={Project1} />
+                        <img width={'164px'} height={'164px'} src={Monnom} />
                         <FaAngleRight className='text-black'/>
                     </button>
                 </div>
@@ -86,7 +91,7 @@ const ProjectSlider = () => {
                         <Transition.Child as={Fragment} enter="ease-out duration-300" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
                         <div className="relative inline-block w-full px-2 max-w-full h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                             <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
-                                <img className='w-24 h-24' src={Project1} />
+                                <img className='w-24 h-24' src={DAXLs} />
                             </Dialog.Title>
                             <div className="mt-2">
                                 <a href='#' target='_blank'>dax.mn</a>
@@ -119,7 +124,7 @@ const ProjectSlider = () => {
                         <Transition.Child as={Fragment} enter="ease-out duration-300" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
                         <div className="relative inline-block w-full px-2 max-w-full h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                             <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
-                                <img className='w-1/4' src={Project1} />
+                                <img className='w-1/4' src={Mont} />
                             </Dialog.Title>
                             <div className="mt-2">
                                 <a href='#' target='_blank'>stablecoin.mn</a>
@@ -183,7 +188,7 @@ const ProjectSlider = () => {
                         <Transition.Child as={Fragment} enter="ease-out duration-300" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
                         <div className="relative inline-block w-full px-2 max-w-full h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                             <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
-                                <img className='w-1/4' src={Project1} />
+                                <img className='w-1/4' src={Monnom} />
                             </Dialog.Title>
                             <div className="mt-2">
                                 <a href='#' target='_blank'>monnom</a>
