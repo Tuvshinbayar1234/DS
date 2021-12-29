@@ -199,7 +199,7 @@ const Projects = () => {
                             {showTopAlert && selectedProject != null && (
                                 <div className={`z-50 overflow-y-hidden absolute top-0 2xl:top-0 flex flex-col w-full  ${isOpen ? ' absolute left-0 transition-all opacity-100 duration-200 ease-in ' : ' absolute left-full opacity-0 transition-all duration-200 ease-in '}`}>
                                     <div className='flex flex-col items-end'>
-                                        <div className='h-56 flex rounded-tl-lg rounded-bl-lg rounded-tr-lg w-full' style={{background: '#1E1E1E' ,boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.25)'}}>
+                                        <div className=' h-128 flex rounded-tl-lg rounded-bl-lg rounded-tr-lg w-full' style={{background: '#1E1E1E' ,boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.25)'}}>
                                             <div className='flex w-60 text-white flex-col justify-center items-center text-center'>
                                                 <img width={'160px'} height={'160px'} src={selectedProject[0].img} />
                                                 <a href={selectedProject[0].link} target="_blank">{selectedProject[0].name}</a>
@@ -209,11 +209,11 @@ const Projects = () => {
                                                     <h1 onClick={() => closedAlert()} className='text-3xl text-white cursor-pointer flex justify-end'><FaAngleLeft /></h1>
                                                     <div className=''><h1 className='text-left text-2xl pb-2 px-2'>{selectedProject[0].name}</h1></div>
                                                 </div>
-                                                <p className='text-sm text-justify px-2' style={{textIndent: '55px'}}>{selectedProject[0].description}</p>
+                                                <p className='text-sm text-justify px-2' style={{textIndent: '27px'}}>{selectedProject[0].description}</p>
                                             </div>
                                         </div>
                                             <div className='w-full flex justify-end'>
-                                                <div className='h-56 flex justify-center items-center rounded-bl-lg rounded-br-lg' style={{width: '70%', background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
+                                                <div className=' h-128 flex justify-center items-center rounded-bl-lg rounded-br-lg' style={{width: '70%', background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
                                                     <div className='text-white flex flex-col justify-center w-full px-10'>
                                                         <h1 className='font-bold text-2xl'>Хийсэн ажлууд</h1>
                                                         <div className='flex space-x-32 w-full pt-2'>
@@ -246,21 +246,21 @@ const Projects = () => {
                             {showBottomAlert && selectedProduct != null && (
                                 <div className={`z-50 overflow-y-hidden absolute top-0 2xl:top-0 flex flex-col w-full  ${isOpenBot ? ' absolute left-0 transition-all opacity-100 duration-200 ease-in ' : ' absolute left-full opacity-0 transition-all duration-200 ease-in '}`}>
                                     <div className='flex flex-col items-end'>
-                                        <div className='h-56 flex justify-end rounded-tr-lg rounded-tl-lg' style={{width: '70%', background: '#1E1E1E'}}>
+                                        <div className=' h-128 flex justify-end rounded-tr-lg rounded-tl-lg' style={{width: '70%', background: '#1E1E1E'}}>
                                             <div className='text-white px-2 w-full flex flex-col'>
                                             <h1 onClick={() => closedBottomAlert()} className='text-3xl pr-3 text-right text-white cursor-pointer flex justify-end pt-2'><FaAngleLeft /></h1>
                                                 <div className='flex items-center w-full justify-between'>
                                                     <div className='text-white w-full flex flex-col pl-5'>
                                                     <div className='flex flex-col justify-center px-1 pt-5'>
                                                     <a className='text-2xl' href={selectedProduct[0].link} target="_blank">{selectedProduct[0].name}</a>
-                                                        <p className='text-white text-sm' style={{textIndent: '55px'}}>{selectedProduct[0].description}</p>
+                                                        <p className='text-white text-sm' style={{textIndent: '27px'}}>{selectedProduct[0].description}</p>
                                                     </div>
                                                             
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='h-56 flex rounded-bl-lg rounded-br-lg rounded-tl-lg w-full' style={{background: '#1E1E1E'}}>
+                                        <div className=' h-128 flex rounded-bl-lg rounded-br-lg rounded-tl-lg w-full' style={{background: '#1E1E1E'}}>
                                             <div className='flex w-60 text-white flex-col justify-center items-center text-center'>
                                                 <img width={'160px'} height={'160px'} src={selectedProduct[0].img} />
                                                 <a href={selectedProduct[0].link} target="_blank">{selectedProduct[0].name}</a>

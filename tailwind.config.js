@@ -8,7 +8,8 @@ module.exports = {
         larger: ['200px' , {
         lineHeight: '20px'
         }]
-      }
+      },
+      height: {'128': '220px',}
     },
   },
   variants: {
