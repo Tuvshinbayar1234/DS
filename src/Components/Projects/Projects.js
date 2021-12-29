@@ -209,16 +209,16 @@ const Projects = () => {
                                         </div>
                                             <div className='w-full flex justify-end'>
                                                 <div className='h-56 rounded-bl-lg rounded-br-lg' style={{width: '70%', background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
-                                                    <div className='text-white text-center'>
-                                                        <h1 className='font-bold text-2xl'>Ажилийн хэсэг</h1>
-                                                        <div className='flex justify-evenly pt-10'>
-                                                            <div className=''>
+                                                    <div className='text-white text-center flex flex-col justify-center items-center'>
+                                                        <h1 className='font-bold text-2xl'>Хийсэн ажлууд</h1>
+                                                        <div className='flex space-x-10 pt-2'>
+                                                            <div className='flex flex-col justify-start items-start'>
                                                                 <p>• {selectedProject[0].development1}</p>
                                                                 <p>• {selectedProject[0].development2}</p>
                                                                 <p>• {selectedProject[0].development3}</p>
                                                                 
                                                             </div>
-                                                            <div className=''>
+                                                            <div className='flex flex-col justify-start items-start'>
                                                                 <p>• {selectedProject[0].development4}</p>
                                                                 <p>• {selectedProject[0].development5}</p>
                                                                 <p>• {selectedProject[0].development6}</p>
@@ -260,14 +260,14 @@ const Projects = () => {
                                                 <a href={selectedProduct[0].link} target="_blank">{selectedProduct[0].name}</a>
                                             </div>
                                             <div className='text-white text-center flex justify-center flex-col items-center w-9/12'>
-                                                <h1 className='font-bold text-2xl'>Ажилийн хэсэг</h1>
+                                                <h1 className='font-bold text-2xl'>Хийсэн ажлууд</h1>
                                                 <div className='flex space-x-10 pt-2'>
-                                                    <div className=''>
+                                                    <div className='flex flex-col justify-start items-start'>
                                                         <p>• {selectedProduct[0].development1}</p>
                                                         <p>• {selectedProduct[0].development2}</p>
                                                         <p>• {selectedProduct[0].development3}</p>
                                                     </div>
-                                                    <div className=''>
+                                                    <div className='flex flex-col justify-start items-start'>
                                                         <p>• {selectedProduct[0].development4}</p>
                                                         <p>• {selectedProduct[0].development5}</p>
                                                         <p>• {selectedProduct[0].development6}</p>

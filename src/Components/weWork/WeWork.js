@@ -15,7 +15,7 @@ const WeWork = () => {
                     </span>
                     <span class="relative w-96 h-60 flex-col inline-flex justify-center mt-36 border-black rounded-2xl border-4">
                     <h1 className=' text-4xl w-3/12 mx-10 font-bold'>Blockchain architecture</h1>
-                        <p className=' text-sm w-3/4 mx-10 py-5'>Танд бизнесээ өргөжүүлэх шаардлага дижитал эрин зуунд гарч байна уу ?</p>
+                        <p className=' text-sm w-3/4 mx-10 py-5'>Бид харилцагчдынхаа хэрэглээнд тохирсон Dapp-н блокчэйн архитехтурыг гаргаж, хамгийн дэвшилтэт шийдлийг хүргэх болно.</p>
                         <span class="flex absolute h-10 w-10 top-0 right-0 mt-52 -mr-5">
                             <span class="absolute inline-flex h-full w-full rounded-full bg-black opacity-75"></span>
                             <span class="relative inline-flex rounded-full h-10 w-10 bg-black"></span>
@@ -44,7 +44,7 @@ const WeWork = () => {
                     </span>
                     <span class="w-full h-28 flex-col flex rounded-2xl">
                     <h1 className='text-2xl w-9/12 font-bold'>Blockchain architecture</h1>
-                    <p className=' text-sm w-full py-5'>Танд бизнесээ өргөжүүлэх шаардлага дижитал эрин зуунд гарч байна уу ?</p>    
+                    <p className=' text-sm w-full py-5'>Бид харилцагчдынхаа хэрэглээнд тохирсон Dapp-н блокчэйн архитехтурыг гаргаж, хамгийн дэвшилтэт шийдлийг хүргэх болно.</p>    
                     </span>
                     <span class="w-full h-40 flex-col flex justify-center rounded-2xl">
                     <h1 className='text-2xl text-left font-bold w-3/12'>Blockchain зөвлөгөө</h1>
