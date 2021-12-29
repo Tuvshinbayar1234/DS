@@ -209,7 +209,7 @@ const Projects = () => {
                                                     <h1 onClick={() => closedAlert()} className='text-3xl text-white cursor-pointer flex justify-end'><FaAngleLeft /></h1>
                                                     <div className=''><h1 className='text-left text-2xl pb-2 px-2'>{selectedProject[0].name}</h1></div>
                                                 </div>
-                                                <p className=' leading-5 text-justify px-2'>{selectedProject[0].description}</p>
+                                                <p className='text-sm text-justify px-2' style={{textIndent: '55px'}}>{selectedProject[0].description}</p>
                                             </div>
                                         </div>
                                             <div className='w-full flex justify-end'>
@@ -218,15 +218,15 @@ const Projects = () => {
                                                         <h1 className='font-bold text-2xl'>Хийсэн ажлууд</h1>
                                                         <div className='flex space-x-32 w-full pt-2'>
                                                             <div className='flex flex-col justify-start items-start'>
-                                                                <p>• {selectedProject[0].development1}</p>
-                                                                <p>• {selectedProject[0].development2}</p>
-                                                                <p>• {selectedProject[0].development3}</p>
+                                                                <p className='text-xs'>• {selectedProject[0].development1}</p>
+                                                                <p className='text-xs'>• {selectedProject[0].development2}</p>
+                                                                <p className='text-xs'>• {selectedProject[0].development3}</p>
                                                                 
                                                             </div>
                                                             <div className='flex flex-col justify-start items-start'>
-                                                                <p>• {selectedProject[0].development4}</p>
-                                                                <p>• {selectedProject[0].development5}</p>
-                                                                <p>• {selectedProject[0].development6}</p>
+                                                                <p className='text-xs'>• {selectedProject[0].development4}</p>
+                                                                <p className='text-xs'>• {selectedProject[0].development5}</p>
+                                                                <p className='text-xs'>• {selectedProject[0].development6}</p>
                                                             </div>
                                                         </div>
                                                     </div>    
@@ -253,7 +253,7 @@ const Projects = () => {
                                                     <div className='text-white w-full flex flex-col pl-5'>
                                                     <div className='flex flex-col justify-center px-1 pt-5'>
                                                     <a className='text-2xl' href={selectedProduct[0].link} target="_blank">{selectedProduct[0].name}</a>
-                                                        <p className='text-white'>{selectedProduct[0].description}</p>
+                                                        <p className='text-white text-sm' style={{textIndent: '55px'}}>{selectedProduct[0].description}</p>
                                                     </div>
                                                             
                                                     </div>
@@ -269,14 +269,14 @@ const Projects = () => {
                                                 <h1 className='font-bold text-2xl pl-8'>Хийсэн ажлууд</h1>
                                                 <div className='flex space-x-32 pl-8 pt-2 w-full'>
                                                     <div className='flex flex-col justify-start items-start'>
-                                                        <p>• {selectedProduct[0].development1}</p>
-                                                        <p>• {selectedProduct[0].development2}</p>
-                                                        <p>• {selectedProduct[0].development3}</p>
+                                                        <p className='text-xs'>• {selectedProduct[0].development1}</p>
+                                                        <p className='text-xs'>• {selectedProduct[0].development2}</p>
+                                                        <p className='text-xs'>• {selectedProduct[0].development3}</p>
                                                     </div>
                                                     <div className='flex flex-col justify-start items-start'>
-                                                        <p>• {selectedProduct[0].development4}</p>
-                                                        <p>• {selectedProduct[0].development5}</p>
-                                                        <p>• {selectedProduct[0].development6}</p>
+                                                        <p className='text-xs'>• {selectedProduct[0].development4}</p>
+                                                        <p className='text-xs'>• {selectedProduct[0].development5}</p>
+                                                        <p className='text-xs'>• {selectedProduct[0].development6}</p>
                                                     </div>
                                                 </div>
                                             </div>
