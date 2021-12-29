@@ -1,6 +1,11 @@
 import React ,{useState} from 'react'
 import Project1 from '../../assets/project.png'
 import White from '../../assets/whitelogo.png'
+import Mont from '../../assets/MONT.png'
+import Monnom from '../../assets/Monnom.png'
+import ARDMs from '../../assets/ArdMoney.png'
+import DAXL from '../../assets/dax-logo-light.png'
+import DAXLs from '../../assets/dax-logo.png'
 import {FaAngleRight , FaAngleLeft, FaWindowClose} from 'react-icons/fa'
 import styles from './style.module.css'
 
@@ -41,7 +46,7 @@ const Projects = () => {
             development4: 'Design',
             development5: 'Branding',
             development6: 'Ecosystem consulting',
-            img: White
+            img: Mont
         },
         {
             id: 2,
@@ -56,7 +61,7 @@ const Projects = () => {
             development4: 'Designs',
             development5: 'Designs',
             development6: 'Designs',
-            img: White
+            img: DAXL
         },
         {
             id: 3,
@@ -71,7 +76,7 @@ const Projects = () => {
             development4: 'Designs',
             development5: 'Designs',
             development6: 'Designs',
-            img: White
+            img: Monnom
         },
        
     ]
@@ -129,17 +134,17 @@ const Projects = () => {
         {
             id: 120,
             code: "ARDM",
-            img: Project1
+            img: Mont
         },
         {
             id: 122,
             code: "ARDX",
-            img: Project1
+            img: DAXLs
         },
         {
             id: 121,
             code: "MONT",
-            img: Project1
+            img: Monnom
         },
         
       
@@ -149,7 +154,7 @@ const Projects = () => {
         {
             id: 121,
             code: "ARDM",
-            img: Project1
+            img: ARDMs
         },
         {
             id: 120,
@@ -186,7 +191,7 @@ const Projects = () => {
                             <div className='flex space-x-12 justify-between w-full'>
                                 {imageOfProducts.length > 0 && imageOfProducts.map(single => (
                                     <div onClick={() => showTopAlert(single.code)} className=' cursor-pointer w-60 h-52 flex justify-center items-center rounded-xl' style={{background: '#FFFFFF', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.25)'}}>
-                                        <img src={single.img} alt={single.code} />
+                                        <img width={'160px'} height={'160px'} src={single.img} alt={single.code} />
                                         <FaAngleRight />
                                     </div>
                                 ))}
