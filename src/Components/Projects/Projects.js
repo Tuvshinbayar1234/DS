@@ -201,7 +201,7 @@ const Projects = () => {
                                     <div className='flex flex-col items-end'>
                                         <div className='h-56 flex rounded-tl-lg rounded-bl-lg rounded-tr-lg w-full' style={{background: '#1E1E1E' ,boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.25)'}}>
                                             <div className='flex w-60 text-white flex-col justify-center items-center text-center'>
-                                                <img width={'171px'} height={'171px'} src={selectedProject[0].img} />
+                                                <img width={'160px'} height={'160px'} src={selectedProject[0].img} />
                                                 <a href={selectedProject[0].link} target="_blank">{selectedProject[0].name}</a>
                                             </div>
                                             <div className='text-white w-4/5 flex flex-col pt-5 px-2'>
@@ -238,7 +238,7 @@ const Projects = () => {
                             <div className='flex space-x-12 justify-end w-full pt-5'>
                                 {imageProducts.length > 0 && imageProducts.map(single => (
                                     <div onClick={() => showBottomAlert(single.code)} className='cursor-pointer w-60 h-52 flex justify-center items-center rounded-xl' style={{background: '#FFFFFF', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.25)'}}>
-                                        <img src={single.img} alt={single.code} />
+                                        <img width={'160px'} height={'160px'} src={single.img} alt={single.code} />
                                         <FaAngleRight />
                                     </div>    
                                 ))}
@@ -261,7 +261,7 @@ const Projects = () => {
                                         </div>
                                         <div className='h-56 flex rounded-bl-lg rounded-br-lg rounded-tl-lg w-full' style={{background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
                                             <div className='flex w-60 text-white flex-col justify-center items-center text-center'>
-                                                <img width={'171px'} height={'171px'} src={selectedProduct[0].img} />
+                                                <img width={'160px'} height={'160px'} src={selectedProduct[0].img} />
                                                 <a href={selectedProduct[0].link} target="_blank">{selectedProduct[0].name}</a>
                                             </div>
                                             <div className='text-white text-center flex justify-center flex-col items-center w-9/12'>

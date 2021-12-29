@@ -25,7 +25,7 @@ function App(){
     <div className="bg-white w-full overflow-x-hidden">
       <Nav />
       <div className="container mx-auto py-28 px-5 hidden lg:block">
-        <div className="flex" style={{fontFamily: 'Magistral'}}>
+        <div className="flex justify-evenly" style={{fontFamily: 'Magistral'}}>
           <div className="w-full ">
             <div className="">
               <h1 className="text-8xl leading-snug w-full">Simple Solutions For</h1>

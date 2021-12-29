@@ -77,7 +77,7 @@ const Team = () => {
                 <h1 id="Team" className='text-4xl' style={{fontFamily: 'Magistral'}}>Манай хамт олон</h1>
             </div>
             <div className="hidden lg:block">
-                <div className="flex items-center justify-evenly space-x-4 py-5">
+                <div className="flex items-center justify-between space-x-4 py-5">
                     {Team.map((i , x) => {
                         return(
                         <div key={x} className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
@@ -92,7 +92,7 @@ const Team = () => {
                 </div>
             </div>
             <div className="hidden lg:block">
-                <div className="flex items-center justify-evenly space-x-4 py-5">
+                <div className="flex items-center justify-between space-x-4 py-5">
                     {Team2.map((i , x) => {
                         return(
                         <div key={x} className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
@@ -107,7 +107,7 @@ const Team = () => {
                 </div>
             </div>
             <div className="hidden lg:block">
-                <div className="flex items-center justify-evenly space-x-4 py-5">
+                <div className="flex items-center justify-between space-x-4 py-5">
                     <div className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
                             <img width={'140px'} height={'188px'} src={zaya} />
