@@ -122,7 +122,7 @@ function App(){
              </div>
              <div className="flex flex-col justify-evenly space-x-6">
               <div className="flex flex-col">
-                <h1 className="text-xs font-bold">Захиа</h1>
+                <h1 className="text-xs font-bold">Дэлгэрэнгүй</h1>
                 <textarea id="message" rows="4" className="w-72 pt-2 outline-none border-b" placeholder="Leave a comment..."></textarea>
               </div>
             </div>
