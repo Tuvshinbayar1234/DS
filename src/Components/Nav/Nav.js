@@ -16,7 +16,7 @@ const Nav = () => {
                     <div className='pl-5 w-60'>
                         <img width={'123px'} height={'35px'} src={Logo} alt='logo'/>
                     </div>
-                    <ul className='flex w-2/5 justify-between items-center font-bold'>
+                    <ul className='flex w-2/5 justify-between items-center'>
                         <a href='#We'>
                             <li>
                                 Бид
