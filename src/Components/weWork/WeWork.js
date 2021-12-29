@@ -40,15 +40,15 @@ const WeWork = () => {
                 <div className='flex flex-col justify-center items-center px-5'>
                     <span class="w-full h-40 flex-col flex justify-center rounded-2xl">
                     <h1 className='text-2xl text-left font-bold'>Smart Contract</h1>
-                    <p className=' text-sm w-full mx-1 py-5'>Ухаалаг гэрээг ERC-20, BEP-20, ERC-1557, SPL стандартын дагуу хөгжүүлж байна.</p>
+                    <p className=' text-sm w-full mx-1'>Ухаалаг гэрээг ERC-20, BEP-20, ERC-1557, SPL стандартын дагуу хөгжүүлж байна.</p>
                     </span>
                     <span class="w-full h-28 flex-col flex rounded-2xl">
                     <h1 className='text-2xl w-9/12 font-bold'>Blockchain architecture</h1>
-                    <p className=' text-sm w-full py-5'>Бид харилцагчдынхаа хэрэглээнд тохирсон Dapp-н блокчэйн архитехтурыг гаргаж, хамгийн дэвшилтэт шийдлийг хүргэх болно.</p>    
+                    <p className=' text-sm w-full'>Бид харилцагчдынхаа хэрэглээнд тохирсон Dapp-н блокчэйн архитехтурыг гаргаж, хамгийн дэвшилтэт шийдлийг хүргэх болно.</p>    
                     </span>
-                    <span class="w-full h-40 flex-col flex justify-center rounded-2xl">
+                    <span class="w-full h-40 pt-5 flex-col flex justify-center rounded-2xl">
                     <h1 className='text-2xl text-left font-bold w-3/12'>Blockchain зөвлөгөө</h1>
-                        <p className=' text-sm w-full mx-1 py-5'>Бид харилцагчдынхаа бизнесийн онцлог, хэрэгцээг харгалзан үзэж, блокчэйн шийдлийн гарааны болон цаашдын төлөвлөгөөнд зөвлөж байна.</p>
+                        <p className=' text-sm w-full mx-1'>Бид харилцагчдынхаа бизнесийн онцлог, хэрэгцээг харгалзан үзэж, блокчэйн шийдлийн гарааны болон цаашдын төлөвлөгөөнд зөвлөж байна.</p>
                         
                     </span>
                 </div>
