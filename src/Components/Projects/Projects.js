@@ -35,7 +35,7 @@ const Projects = () => {
     const projects = [
          {
             id: 1,
-            name: 'stablecoin.com',
+            name: 'MONT',
             link: 'https://www.stablecoin.mn/',
             code: 'ARDM',
             description: 'Монголын анхны Стэйблкойн. Монгол төгрөгтэй үнэ цэнээ аргамжсан энэхүү койн нь крипто арилжаанд төгрөгийг төлөөлөх хамгийн зөв хэрэгсэл болно. Энэхүү койны ухаалаг гэрээг Diverse Solutions хөгжүүлж, хэрэглээнд нэвтрүүлсэн болно.',
@@ -50,7 +50,7 @@ const Projects = () => {
         },
         {
             id: 2,
-            name: 'dax.mn',
+            name: 'DAX',
             link:'https://dax.mn/',
             code: 'ARDX',
             description: 'Монголын том 4 биржийн нэг. Хамгийн анх Ард Санхүүгийн Нэгдэлийн крипто арилжааны биржийг',
@@ -65,7 +65,7 @@ const Projects = () => {
         },
         {
             id: 3,
-            name: 'Monnom',
+            name: 'MONNOM',
             code: 'MONT',
             link: 'https://monnom.mn/',
             description: '“Monnom” аппликейшн нь цахим, аудио, хэвлэмэл номыг онлайнаар худалдаалдаг номын төвлөрсөн платформ юм. Бид 2021 оноос үйл ажиллагаагаа явуулж эхэлсэн ба Монгол хэл дээрх бүх төрлийн номыг цахим, аудио, хэвлэмэл гэсэн гурван хэлбэрээр хэрэглэгчдэд хүргэдэг.',
@@ -84,7 +84,7 @@ const Projects = () => {
     const products = [
         {
             id: 1,
-            name: 'ArdMoney',
+            name: 'ARDMONEY',
             link: 'https://www.ardmoney.com/',
             code: 'ARDM',
             description: 'Монголын анхны DAO төсөл. Төвлөрсөн бус санхүүг Монголын болон Төв Азийн зах зээлд авчирч, крипто хэрэглэгчдийн хэрэглээнд нэвтрэх зорилготой.',
@@ -204,19 +204,19 @@ const Projects = () => {
                                                 <img width={'160px'} height={'160px'} src={selectedProject[0].img} />
                                                 <a href={selectedProject[0].link} target="_blank">{selectedProject[0].name}</a>
                                             </div>
-                                            <div className='text-white w-4/5 flex flex-col pt-5 px-2'>
+                                            <div className='text-white w-4/5 flex flex-col pt-5 px-10'>
                                                 <div className='flex flex-col'>
                                                     <h1 onClick={() => closedAlert()} className='text-3xl text-white cursor-pointer flex justify-end'><FaAngleLeft /></h1>
                                                     <div className=''><h1 className='text-left text-2xl pb-2 px-2'>{selectedProject[0].name}</h1></div>
                                                 </div>
-                                                <p className=' text-justify px-2'>{selectedProject[0].description}</p>
+                                                <p className=' leading-5 text-justify px-2'>{selectedProject[0].description}</p>
                                             </div>
                                         </div>
                                             <div className='w-full flex justify-end'>
-                                                <div className='h-56 rounded-bl-lg rounded-br-lg' style={{width: '70%', background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
-                                                    <div className='text-white text-center flex flex-col justify-center items-center'>
+                                                <div className='h-56 flex justify-center items-center rounded-bl-lg rounded-br-lg' style={{width: '70%', background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
+                                                    <div className='text-white flex flex-col justify-center w-full px-10'>
                                                         <h1 className='font-bold text-2xl'>Хийсэн ажлууд</h1>
-                                                        <div className='flex space-x-10 pt-2'>
+                                                        <div className='flex space-x-32 w-full pt-2'>
                                                             <div className='flex flex-col justify-start items-start'>
                                                                 <p>• {selectedProject[0].development1}</p>
                                                                 <p>• {selectedProject[0].development2}</p>
@@ -246,12 +246,13 @@ const Projects = () => {
                             {showBottomAlert && selectedProduct != null && (
                                 <div className={`z-50 overflow-y-hidden absolute top-0 2xl:top-0 flex flex-col w-full  ${isOpenBot ? ' absolute left-0 transition-all opacity-100 duration-200 ease-in ' : ' absolute left-full opacity-0 transition-all duration-200 ease-in '}`}>
                                     <div className='flex flex-col items-end'>
-                                        <div className='h-56 flex justify-end rounded-tr-lg rounded-tl-lg' style={{width: '70%', background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
+                                        <div className='h-56 flex justify-end rounded-tr-lg rounded-tl-lg' style={{width: '70%', background: '#1E1E1E'}}>
                                             <div className='text-white px-2 w-full flex flex-col'>
-                                            <h1 onClick={() => closedBottomAlert()} className='text-xl pr-3 text-right text-white cursor-pointer flex justify-end pt-2'><FaAngleLeft /></h1>
+                                            <h1 onClick={() => closedBottomAlert()} className='text-3xl pr-3 text-right text-white cursor-pointer flex justify-end pt-2'><FaAngleLeft /></h1>
                                                 <div className='flex items-center w-full justify-between'>
                                                     <div className='text-white w-full flex flex-col pl-5'>
-                                                    <div className='flex justify-center px-1 pt-5'>
+                                                    <div className='flex flex-col justify-center px-1 pt-5'>
+                                                    <a className='text-2xl' href={selectedProduct[0].link} target="_blank">{selectedProduct[0].name}</a>
                                                         <p className='text-white'>{selectedProduct[0].description}</p>
                                                     </div>
                                                             
@@ -259,14 +260,14 @@ const Projects = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='h-56 flex rounded-bl-lg rounded-br-lg rounded-tl-lg w-full' style={{background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
+                                        <div className='h-56 flex rounded-bl-lg rounded-br-lg rounded-tl-lg w-full' style={{background: '#1E1E1E'}}>
                                             <div className='flex w-60 text-white flex-col justify-center items-center text-center'>
                                                 <img width={'160px'} height={'160px'} src={selectedProduct[0].img} />
                                                 <a href={selectedProduct[0].link} target="_blank">{selectedProduct[0].name}</a>
                                             </div>
-                                            <div className='text-white text-center flex justify-center flex-col items-center w-9/12'>
-                                                <h1 className='font-bold text-2xl'>Хийсэн ажлууд</h1>
-                                                <div className='flex space-x-10 pt-2'>
+                                            <div className='text-white flex justify-center flex-col  w-9/12'>
+                                                <h1 className='font-bold text-2xl pl-8'>Хийсэн ажлууд</h1>
+                                                <div className='flex space-x-32 pl-8 pt-2 w-full'>
                                                     <div className='flex flex-col justify-start items-start'>
                                                         <p>• {selectedProduct[0].development1}</p>
                                                         <p>• {selectedProduct[0].development2}</p>

@@ -75,22 +75,22 @@ function App(){
           <div className="w-6/12 flex justify-evenly space-x-5">
              <div className="flex flex-col">
                <h1 className="text-xs font-bold">Нэр</h1>
-               <input className="w-44 py-4 outline-none border-b" placeholder="Name" />
+               <input className="w-44 py-4 outline-none border-b" placeholder="Нэр" />
              </div>
              <div className="flex flex-col">
                <h1 className="text-xs font-bold">Цахим шуудан</h1>
-               <input className=" w-44 py-4 outline-none border-b" placeholder="E-mail" />
+               <input className=" w-44 py-4 outline-none border-b" placeholder="Цахим шуудан" />
              </div>
              <div className="flex flex-col">
                <h1 className="text-xs font-bold">Утас</h1>
-               <input className=" w-44 py-4 outline-none border-b" placeholder="Phone" />
+               <input className=" w-44 py-4 outline-none border-b" placeholder="Утас" />
              </div>
           </div>
           <div className="w-6/12 py-5">
             <div className="flex justify-evenly lg:space-x-14 xl:space-x-12 sm:space-x-20">
               <div className="flex flex-col">
                 <h1 className="text-xs font-bold">Дэлгэрэнгүй</h1>
-                <textarea id="message" rows="4" className="lg:w-96 sm:w-80 py-4 outline-none border-b" placeholder="Leave a comment..."></textarea>
+                <textarea id="message" rows="4" className="lg:w-96 sm:w-80 py-4 outline-none border-b" placeholder="Бичих..."></textarea>
               </div>
               
               <div className="flex flex-col items-center justify-center">
@@ -110,20 +110,20 @@ function App(){
           <div className="w-6/12 flex flex-col justify-start">
              <div className="flex flex-col pb-3">
                <h1 className=" text-xs font-bold">Нэр</h1>
-               <input className=" w-72 pt-2 outline-none border-b" placeholder="Name" />
+               <input className=" w-72 pt-2 outline-none border-b" placeholder="Нэр" />
              </div>
              <div className="flex flex-col pb-3">
                <h1 className="text-xs font-bold">Цахим шуудан</h1>
-               <input className=" w-72 pt-2 outline-none border-b" placeholder="E-mail" />
+               <input className=" w-72 pt-2 outline-none border-b" placeholder="Цахим шуудан" />
              </div>
              <div className="flex flex-col pb-3">
                <h1 className="text-xs font-bold">Утас</h1>
-               <input className=" w-72 pt-2 outline-none border-b" placeholder="Phone" />
+               <input className=" w-72 pt-2 outline-none border-b" placeholder="Утас" />
              </div>
              <div className="flex flex-col justify-evenly space-x-6">
               <div className="flex flex-col">
                 <h1 className="text-xs font-bold">Дэлгэрэнгүй</h1>
-                <textarea id="message" rows="4" className="w-72 pt-2 outline-none border-b" placeholder="Leave a comment..."></textarea>
+                <textarea id="message" rows="4" className="w-72 pt-2 outline-none border-b" placeholder="Бичих..."></textarea>
               </div>
             </div>
           </div>
