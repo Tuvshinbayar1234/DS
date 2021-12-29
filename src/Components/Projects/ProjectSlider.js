@@ -3,14 +3,16 @@ import White from '../../assets/whitelogo.png'
 import Project1 from '../../assets/project.png'
 import Mont from '../../assets/MONT.png'
 import Monnom from '../../assets/Monnom.png'
-import ARDMs from '../../assets/ArdMoney.png'
-import DAXL from '../../assets/dax-logo-light.png'
+import ARDMWEB from '../../assets/ARDMWEB.png'
+import DAXWEB from '../../assets/DAXWEB.png'
+import MONTWEB from '../../assets/MONTWEB.png'
 import DAXLs from '../../assets/dax-logo.png'
 import Slider, { Settings } from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Dialog, Transition } from '@headlessui/react'
 import {FaAngleRight , FaAngleLeft} from 'react-icons/fa'
+
 
 const ProjectSlider = () => {
 
@@ -96,9 +98,9 @@ const ProjectSlider = () => {
                             <div className="mt-2">
                                 <a href='#' target='_blank'>dax.mn</a>
                             </div>
-                            <div className='pt-5'>
+                            <div className='pt-5 flex flex-col justify-center items-center'>
                                 <p>Монголын том 4 биржийн нэг. Хамгийн анх Ард Санхүүгийн Нэгдэлийн крипто арилжааны биржийг хөгжүүлж, хэрэглээнд нэвтрүүлснээс хойш 2 шинэчлэлтийг хийгээд байгаа билээ.</p>
-                               
+                                <img height={'270px'} className='pt-5' src={DAXWEB} />
                             </div>
                             <div className=" absolute bottom-0 pb-2 right-0 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModal}>
@@ -129,8 +131,9 @@ const ProjectSlider = () => {
                             <div className="mt-2">
                                 <a href='#' target='_blank'>stablecoin.mn</a>
                             </div>
-                            <div className='pt-5'>
+                            <div className='pt-5 flex flex-col justify-center items-center'>
                                 <p>Монголын анхны Стэйблкойн. Монгол төгрөгтэй үнэ цэнээ аргамжсан энэхүү койн нь крипто арилжаанд төгрөгийг төлөөлөх хамгийн зөв хэрэгсэл болно. Энэхүү койны ухаалаг гэрээг Diverse Solutions хөгжүүлж, хэрэглээнд нэвтрүүлсэн болно.</p>
+                                <img height={'270px'} className='pt-5' src={MONTWEB} />
                             </div>
                             <div className="mt-4 absolute bottom-0 right-0 pb-2 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModalSecond}>
@@ -161,8 +164,9 @@ const ProjectSlider = () => {
                             <div className="mt-2">
                                 <a href='#' target='_blank'>ardmoney.com</a>
                             </div>
-                            <div className='pt-5'>
+                            <div className='pt-5 flex flex-col justify-center items-center'>
                                 <p>Монголын анхны DAO төсөл. Төвлөрсөн бус санхүүг Монголын болон Төв Азийн зах зээлд авчирч, крипто хэрэглэгчдийн хэрэглээнд нэвтрэх зорилготой.</p>
+                                <img height={'270px'} className='pt-5' src={ARDMWEB} />
                             </div>
                             <div className="mt-4 absolute bottom-0 right-0 pb-2 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModalThird}>

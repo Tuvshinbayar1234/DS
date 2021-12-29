@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b3d15af6.chunk.css",
-    "main.js": "/static/js/main.17a9d69e.chunk.js",
-    "main.js.map": "/static/js/main.17a9d69e.chunk.js.map",
+    "main.js": "/static/js/main.3887026c.chunk.js",
+    "main.js.map": "/static/js/main.3887026c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7efbd581.js",
     "runtime-main.js.map": "/static/js/runtime-main.7efbd581.js.map",
     "static/css/2.cd76a518.chunk.css": "/static/css/2.cd76a518.chunk.css",
@@ -14,9 +14,12 @@
     "static/css/2.cd76a518.chunk.css.map": "/static/css/2.cd76a518.chunk.css.map",
     "static/css/main.b3d15af6.chunk.css.map": "/static/css/main.b3d15af6.chunk.css.map",
     "static/js/2.2ddda883.chunk.js.LICENSE.txt": "/static/js/2.2ddda883.chunk.js.LICENSE.txt",
+    "static/media/ARDMWEB.fd645ab3.png": "/static/media/ARDMWEB.fd645ab3.png",
     "static/media/ArdMoney.a52ce7f3.png": "/static/media/ArdMoney.a52ce7f3.png",
+    "static/media/DAXWEB.118f8802.png": "/static/media/DAXWEB.118f8802.png",
     "static/media/Home.feaf4c1f.png": "/static/media/Home.feaf4c1f.png",
     "static/media/MONT.a2295a74.png": "/static/media/MONT.a2295a74.png",
+    "static/media/MONTWEB.2bb6ca0a.png": "/static/media/MONTWEB.2bb6ca0a.png",
     "static/media/index.css": "/static/media/Magistral-Bold.379b5708.ttf",
     "static/media/Monnom.b9aedb31.png": "/static/media/Monnom.b9aedb31.png",
     "static/media/amaraa.6a665480.png": "/static/media/amaraa.6a665480.png",
@@ -43,6 +46,6 @@
     "static/css/2.cd76a518.chunk.css",
     "static/js/2.2ddda883.chunk.js",
     "static/css/main.b3d15af6.chunk.css",
-    "static/js/main.17a9d69e.chunk.js"
+    "static/js/main.3887026c.chunk.js"
   ]
 }
