@@ -7,10 +7,10 @@ const We = () => {
                 <div className='flex'>
                     <div className='w-2/4 flex flex-col justify-center items-center'>
                         <div className='text-center'>
-                            <h1 className='text-9xl' id='We' style={{fontFamily: 'Magistral'}}>Бид ?</h1>
+                            <h1 className=' text-larger' id='We' style={{fontFamily: 'Magistral'}}>Бид ?</h1>
                         </div>
-                        <div className='flex flex-col justify-center items-center'>
-                            <h1 className='w-2/4 pt-10 text-2xl font-bold w-9/12'>Эрхэм зорилго</h1>
+                        <div className='flex flex-col justify-center items-center pt-10'>
+                            <h1 className=' pt-10 text-2xl font-bold w-9/12'>Эрхэм зорилго</h1>
                             <p className='origin-center transform rotate-1 py-5 w-9/12 font-extralight'>Блокчэйн технологийн шийдлийг хамгийн өндөр түвшинд хөгжүүлж, харилцагчиддаа үнэ цэнийг бүтээхэд хамтран ажиллахыг зорьдог.</p>
                         </div>
                     </div>
