@@ -7,7 +7,6 @@ import ARDMs from '../../assets/ArdMoney.png'
 import DAXL from '../../assets/dax-logo-light.png'
 import DAXLs from '../../assets/dax-logo.png'
 import {FaAngleRight , FaAngleLeft, FaWindowClose} from 'react-icons/fa'
-import styles from './style.module.css'
 
 const Projects = () => {
 
@@ -201,8 +200,8 @@ const Projects = () => {
                                     <div className='flex flex-col items-end'>
                                         <div className=' h-128 flex rounded-tl-lg rounded-bl-lg rounded-tr-lg w-full' style={{background: '#1E1E1E' ,boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.25)'}}>
                                             <div className='flex w-60 text-white flex-col justify-center items-center text-center'>
-                                                <img width={'160px'} height={'160px'} src={selectedProject[0].img} />
-                                                <a href={selectedProject[0].link} target="_blank">{selectedProject[0].name}</a>
+                                                <img alt='IMAGE' width={'160px'} height={'160px'} src={selectedProject[0].img} />
+                                                <a href={selectedProject[0].link} rel="noreferrer" target="_blank">{selectedProject[0].name}</a>
                                             </div>
                                             <div className='text-white w-4/5 flex flex-col pt-5 px-10'>
                                                 <div className='flex flex-col'>
@@ -252,7 +251,7 @@ const Projects = () => {
                                                 <div className='flex items-center w-full justify-between'>
                                                     <div className='text-white w-full flex flex-col pl-5'>
                                                     <div className='flex flex-col justify-center px-1 pt-5'>
-                                                    <a className='text-2xl' href={selectedProduct[0].link} target="_blank">{selectedProduct[0].name}</a>
+                                                    <a className='text-2xl' href={selectedProduct[0].link} rel="noreferrer" target="_blank">{selectedProduct[0].name}</a>
                                                         <p className='text-white text-sm' style={{textIndent: '27px'}}>{selectedProduct[0].description}</p>
                                                     </div>
                                                             
@@ -262,8 +261,8 @@ const Projects = () => {
                                         </div>
                                         <div className=' h-128 flex rounded-bl-lg rounded-br-lg rounded-tl-lg w-full' style={{background: '#1E1E1E'}}>
                                             <div className='flex w-60 text-white flex-col justify-center items-center text-center'>
-                                                <img width={'160px'} height={'160px'} src={selectedProduct[0].img} />
-                                                <a href={selectedProduct[0].link} target="_blank">{selectedProduct[0].name}</a>
+                                                <img alt='IMAGE' width={'160px'} height={'160px'} src={selectedProduct[0].img} />
+                                                <a href={selectedProduct[0].link} rel="noreferrer" target="_blank">{selectedProduct[0].name}</a>
                                             </div>
                                             <div className='text-white flex justify-center flex-col  w-9/12'>
                                                 <h1 className='font-bold text-2xl pl-8'>Хийсэн ажлууд</h1>

@@ -8,7 +8,7 @@ const Nav = () => {
     return (
         <div className='w-full py-5 px-5'>
             <div className="xl:hidden flex justify-between">
-                <img className='z-50' src={Logo} />
+                <img alt='IMAGE' className='z-50' src={Logo} />
                 <Hamburger />
             </div>
             <div className='hidden xl:block'>

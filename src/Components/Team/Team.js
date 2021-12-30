@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import Bataa from '../../assets/bataa.png'
 import amaraa from '../../assets/amaraa.png'
 import bo from '../../assets/bo.png'
@@ -8,7 +8,6 @@ import odko from '../../assets/odko.png'
 import zaya from '../../assets/zaya.png'
 import tuku from '../../assets/tuku.png'
 import tulgaa from '../../assets/tulgaa.png'
-import tamiraa from '../../assets/tamiraa.png'
 import buri from '../../assets/buri.png'
 import eegii from '../../assets/eegii.png'
 import tseku from '../../assets/tseku.png'
@@ -82,7 +81,7 @@ const Team = () => {
                         return(
                         <div key={x} className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                             <div className="">
-                                <img width={'140px'} height={'188px'} src={i.img} />
+                                <img alt='IMAGE' width={'140px'} height={'188px'} src={i.img} />
                                 <h1 className="pt-3 text-sm font-bold">{i.name}</h1>
                                 <p className="lg:text-xs sm:text-xs pb-3">{i.title}</p>
                             </div>
@@ -97,7 +96,7 @@ const Team = () => {
                         return(
                         <div key={x} className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                             <div className="">
-                                <img width={'140px'} height={'188px'} src={i.img} />
+                                <img alt='IMAGE' width={'140px'} height={'188px'} src={i.img} />
                                 <h1 className="pt-3 text-sm font-bold">{i.name}</h1>
                                 <p className="lg:text-xs sm:text-xs pb-3">{i.title}</p>
                             </div>
@@ -110,35 +109,35 @@ const Team = () => {
                 <div className="flex items-center justify-between space-x-4 py-5">
                     <div className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
-                            <img width={'140px'} height={'188px'} src={zaya} />
+                            <img alt='IMAGE' width={'140px'} height={'188px'} src={zaya} />
                             <h1 className="pt-3 text-sm font-bold">Ж. Амарзаяа</h1>
                             <p className="lg:text-xs sm:text-xs pb-3">Secretary</p>
                         </div>
                     </div>
                     <div className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
-                            <img width={'140px'} height={'188px'} src={amaraa} />
+                            <img alt='IMAGE' width={'140px'} height={'188px'} src={amaraa} />
                             <h1 className="pt-3 text-sm font-bold">А. Амартүвшин</h1>
                             <p className="lg:text-xs sm:text-xs pb-3">Blockchain Consultant</p>
                         </div>
                     </div>
                     <div className="flex opacity-0 justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
-                            <img width={'140px'} height={'188px'} src={zaya} />
+                            <img alt='IMAGE' width={'140px'} height={'188px'} src={zaya} />
                             <h1 className="pt-3 text-sm font-bold">Ж. Амарзаяа</h1>
                             <p className="lg:text-xs sm:text-xs pb-3">Secretary</p>
                         </div>
                     </div>
                     <div className="flex opacity-0 justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
-                            <img width={'140px'} height={'188px'} src={zaya} />
+                            <img alt='IMAGE' width={'140px'} height={'188px'} src={zaya} />
                             <h1 className="pt-3 text-sm font-bold">Ж. Амарзаяа</h1>
                             <p className="lg:text-xs sm:text-xs pb-3">Secretary</p>
                         </div>
                     </div>
                     <div className="flex opacity-0 justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
-                            <img width={'140px'} height={'188px'} src={zaya} />
+                            <img alt='IMAGE' width={'140px'} height={'188px'} src={zaya} />
                             <h1 className="pt-3 text-sm font-bold">Ж. Амарзаяа</h1>
                             <p className="lg:text-xs sm:text-xs pb-3">Secretary</p>
                         </div>

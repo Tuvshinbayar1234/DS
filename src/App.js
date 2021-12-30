@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import Nav from "./Components/Nav/Nav";
 import Home from './assets/Home.png'
 import We from "./Components/We/We";
@@ -7,7 +7,6 @@ import Team from "./Components/Team/Team";
 import Projects from "./Components/Projects/Projects";
 import Footer from "./Components/Footer/Footer";
 import AlertSuccess from "./Components/alert/Alert";
-import AutoPlay from "./Components/Team/TeamSlider";
 import TeamSlider from "./Components/Team/TeamSlider";
 import ProjectAccordion from "./Components/Projects/ProjectAccordion";
 import ProjectSlider from "./Components/Projects/ProjectSlider";

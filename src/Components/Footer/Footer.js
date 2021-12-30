@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='hidden sm:block'>
                 <div className='container mx-auto flex space-x-24 items-center'>
                     <div className=''>
-                        <img src={logo} />
+                        <img alt='IMAGE' src={logo} />
                     </div>
                     <div className='text-white text-xs'>
                         <div className='flex space-x-2'>
@@ -35,7 +35,7 @@ const Footer = () => {
             <div className='block sm:hidden w-full'>
                 <div className='flex justify-center items-center space-x-2'>
                     <div className=' w-4/12'>
-                        <img width={'101px'} height={'70px'} src={logo} />
+                        <img alt='IMAGE' width={'101px'} height={'70px'} src={logo} />
                     </div>
                     <div className=' w-6/12 text-xs text-white'>
                         <div className='flex space-x-2'>

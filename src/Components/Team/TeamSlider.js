@@ -1,5 +1,4 @@
 import React,{Fragment , useState} from "react";
-import Slider, { Settings } from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Bataa from '../../assets/bataa.png'
@@ -11,7 +10,6 @@ import odko from '../../assets/odko.png'
 import zaya from '../../assets/zaya.png'
 import tuku from '../../assets/tuku.png'
 import tulgaa from '../../assets/tulgaa.png'
-import tamiraa from '../../assets/tamiraa.png'
 import buri from '../../assets/buri.png'
 import eegii from '../../assets/eegii.png'
 import tseku from '../../assets/tseku.png'
@@ -180,7 +178,7 @@ const TeamSlider = () => {
                 <div className="flex justify-center items-center rounded-xl mr-5 sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                     <div key={x} className="flex justify-center items-center w-48 h-64">
                         <div className="">
-                            <img width={'140px'} height={'188px'} src={i.img} />
+                            <img alt='IMAGE' width={'140px'} height={'188px'} src={i.img} />
                             <h1 className="pt-3 text-xs font-bold">{i.name}</h1>
                             <p className="text-xs pb-3">{i.title}</p>
                         </div>
@@ -219,7 +217,7 @@ const TeamSlider = () => {
                                                 <div className="flex justify-center items-center rounded-xl mr-5 sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                                                     <div key={x} className="flex justify-center items-center w-48 h-64">
                                                         <div className="">
-                                                            <img width={'140px'} height={'188px'} src={i.img} />
+                                                            <img alt='IMAGE' width={'140px'} height={'188px'} src={i.img} />
                                                             <h1 className="pt-3 text-xs font-bold">{i.name}</h1>
                                                             <p className="text-xs pb-3">{i.title}</p>
                                                         </div>
@@ -234,7 +232,7 @@ const TeamSlider = () => {
                                                 <div className="flex justify-center items-center rounded-xl mr-5 sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                                                     <div key={x} className="flex justify-center items-center w-48 h-64">
                                                         <div className="">
-                                                            <img width={'140px'} height={'188px'} src={i.img} />
+                                                            <img alt='IMAGE' width={'140px'} height={'188px'} src={i.img} />
                                                             <h1 className="pt-3 text-xs font-bold">{i.name}</h1>
                                                             <p className="text-xs pb-3">{i.title}</p>
                                                         </div>
