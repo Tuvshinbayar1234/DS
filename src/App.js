@@ -23,7 +23,7 @@ function App(){
   return (
     <div className="bg-white w-full overflow-x-hidden">
       <Nav />
-      <div className="container mx-auto py-28 px-5 hidden lg:block">
+      <div className="container mx-auto py-32 px-5 hidden lg:block">
         <div className="flex justify-evenly" style={{fontFamily: 'Magistral'}}>
           <div className="w-full ">
             <div className="">

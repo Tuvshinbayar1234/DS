@@ -27,15 +27,6 @@ const TeamSlider = () => {
         setIsOpen(false)
     }
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 2,
-        autoplaySpeed: 500,
-        slidesToScroll: 2,
-    };
-
     const Team = [
         {
             img: eegii,
@@ -178,7 +169,7 @@ const TeamSlider = () => {
                 <div className="flex justify-center items-center rounded-xl mr-5 sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                     <div key={x} className="flex justify-center items-center w-48 h-64">
                         <div className="">
-                            <img alt='IMAGE' width={'140px'} height={'188px'} src={i.img} />
+                            <img alt='image' width={'140px'} height={'188px'} src={i.img} />
                             <h1 className="pt-3 text-xs font-bold">{i.name}</h1>
                             <p className="text-xs pb-3">{i.title}</p>
                         </div>
@@ -217,7 +208,7 @@ const TeamSlider = () => {
                                                 <div className="flex justify-center items-center rounded-xl mr-5 sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                                                     <div key={x} className="flex justify-center items-center w-48 h-64">
                                                         <div className="">
-                                                            <img alt='IMAGE' width={'140px'} height={'188px'} src={i.img} />
+                                                            <img alt='image' width={'140px'} height={'188px'} src={i.img} />
                                                             <h1 className="pt-3 text-xs font-bold">{i.name}</h1>
                                                             <p className="text-xs pb-3">{i.title}</p>
                                                         </div>
@@ -232,7 +223,7 @@ const TeamSlider = () => {
                                                 <div className="flex justify-center items-center rounded-xl mr-5 sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                                                     <div key={x} className="flex justify-center items-center w-48 h-64">
                                                         <div className="">
-                                                            <img alt='IMAGE' width={'140px'} height={'188px'} src={i.img} />
+                                                            <img alt='image' width={'140px'} height={'188px'} src={i.img} />
                                                             <h1 className="pt-3 text-xs font-bold">{i.name}</h1>
                                                             <p className="text-xs pb-3">{i.title}</p>
                                                         </div>
